@@ -1,0 +1,53 @@
+
+.immersive_visuals-container
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  width: 100vw
+  height: 100vh
+  overflow: hidden
+
+  background: #FFF7D9
+
+  .svg_container
+    width: 100%
+    height: 100%
+    overflow: hidden
+
+    z-index: 2
+
+    .leaves
+      position: absolute
+
+      height: 120%
+
+    svg
+      width: 100%
+      height: 100%
+
+    .leaves-left
+      left: -150px
+      bottom: -150px
+
+      height: 1200px
+
+    .leaves-right
+      right: -100px
+      bottom: -100px
+
+      height: 1000px
+
+      transform: scaleX(-1)
+
+  .text_container
+    position: absolute
+    font-family: Neufreit, sans-serif
+    text-align: right
+
+    h1
+      font-size: 5rem
+    h2
+      font-size: 2rem

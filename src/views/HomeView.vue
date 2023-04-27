@@ -1,17 +1,24 @@
 <script>
-import ImmersiveVisuals from "@/components/ImercifVisual/ImercifVisual.vue";
+import HeroBanner from "@/components/HeroBanner/HeroBanner.vue";
 import PageLoader from "@/components/PageLoader/PageLoader.vue";
+import Projects from "@/components/Projects/Projects.vue";
 
 export default {
   name: "HomeView",
-  components: { PageLoader, ImmersiveVisuals },
+  components: {Projects, PageLoader, HeroBanner },
   data: () => {
     return {
       isLoaded: false,
     };
   },
   mounted() {
-    setTimeout(() => (this.isLoaded = true), 4200);
+    document.onreadystatechange = () => {
+      setTimeout(() => {
+        if (document.readyState === "complete") {
+          this.isLoaded = true;
+        }
+      }, "1500");
+    };
   },
 };
 </script>
@@ -22,8 +29,11 @@ export default {
       <PageLoader />
     </div>
     <div v-if="isLoaded">
-      <ImmersiveVisuals />
-      <ImmersiveVisuals />
+      <HeroBanner />
+      <Projects />
     </div>
   </main>
 </template>
+
+<style>
+</style>

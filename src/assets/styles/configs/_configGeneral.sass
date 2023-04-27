@@ -1,0 +1,51 @@
+.btn
+  display: flex
+  justify-content: center
+  padding: 10px 40px
+  margin: 20px 0
+  border-radius: 0 20px 0 20px
+  transition: 0.25s
+  box-shadow: inset 0 0 0 0 #FFFFFF
+
+.btn_full-white
+  background: #FFFFFF
+  color: #3D5246
+
+.btn_border-white
+  border: 3px #FFFFFF solid
+  color: #ffffff
+  path
+    stroke: #FFFFFF
+    fill: #FFFFFF
+  &:hover, &:active, &:focus
+    color: #3D5246
+    box-shadow: inset 11rem 0 0 0 #FFFFFF
+    path
+     stroke: #3D5246
+     fill: #3D5246
+
+.btn_full-green
+  background: #3D5246
+  color: #FFFFFF
+
+
+.btn_border-green
+  border: 3px #3D5246
+  color: #3D5246
+  path
+    stroke: #FFFFFF
+    fill: #FFFFFF
+  &:hover, &:active
+    color: #FFFFFF
+    box-shadow: inset 15em 0 0 0 #3D5246
+    path
+      stroke: #FFFFFF
+      fill: #FFFFFF
+
+.btn_picto-right
+  svg
+    margin-left: 10px
+
+.btn_picto-left
+  svg
+    margin-right: 10px

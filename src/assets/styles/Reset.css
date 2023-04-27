@@ -37,6 +37,13 @@ body {
 ol, ul {
   list-style: none;
 }
+button {
+  border: none;
+  background: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
 blockquote, q {
   quotes: none;
 }

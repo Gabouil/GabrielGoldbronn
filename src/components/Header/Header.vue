@@ -1,6 +1,6 @@
 <template>
-  <header :class="{ change_color: scrollPosition > 50 }">
-    <LogoGabrielGoldbronn />
+  <header>
+    <a href="#top_page"><LogoGabrielGoldbronn /></a>
     <nav>
       <ul>
         <li><a href="#projects_section">Mes projets</a></li>
@@ -8,6 +8,7 @@
         <li><a href="#contact_section">Contact</a></li>
       </ul>
     </nav>
+    <span :class="{ change_color: scrollPosition > 50 }" />
   </header>
 </template>
 
@@ -15,7 +16,7 @@
 import LogoGabrielGoldbronn from "@/assets/pictos/logoGabrielGoldbronn.vue";
 
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
+  // eslint-disable-next-line vue/multi-word-component-names,vue/no-reserved-component-names
   name: "Header",
   components: { LogoGabrielGoldbronn },
   data: () => {

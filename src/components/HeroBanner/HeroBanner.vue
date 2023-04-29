@@ -1,12 +1,12 @@
 <template>
-  <section class="immersive_visuals-container">
+  <section id="top_page" class="immersive_visuals-container">
     <div class="img_container">
       <img src="../../assets/images/hero-banner-gabriel-goldbronn.png" />
     </div>
     <div class="text_container">
       <div class="text">
         <div>
-          <h1 class="title-spe">Gabriel</h1>
+          <h1 class="title-spe title-spe1">Gabriel</h1>
           <h1 class="title-spe">Goldbronn</h1>
         </div>
         <div>

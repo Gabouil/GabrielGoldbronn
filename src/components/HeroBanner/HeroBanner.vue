@@ -6,14 +6,16 @@
     <div class="text_container">
       <div class="text">
         <div>
-          <h1>Gabriel</h1>
-          <h1>Goldbronn</h1>
+          <h1 class="title-spe">Gabriel</h1>
+          <h1 class="title-spe">Goldbronn</h1>
         </div>
         <div>
           <h2>Développeur Front-end</h2>
           <h2>Ui designer</h2>
         </div>
-        <button class="btn btn_border-white btn_picto-right">Suite <DownArrow /></button>
+        <a href="#projects_section" class="btn btn_border-white btn_picto-right"
+          >Suite <DownArrow />
+        </a>
       </div>
     </div>
   </section>

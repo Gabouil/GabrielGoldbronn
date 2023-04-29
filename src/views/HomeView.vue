@@ -2,10 +2,12 @@
 import HeroBanner from "@/components/HeroBanner/HeroBanner.vue";
 import PageLoader from "@/components/PageLoader/PageLoader.vue";
 import Projects from "@/components/Projects/Projects.vue";
+import Header from "@/components/Header/Header.vue";
 
 export default {
   name: "HomeView",
-  components: {Projects, PageLoader, HeroBanner },
+  // eslint-disable-next-line vue/no-reserved-component-names
+  components: { Header, Projects, PageLoader, HeroBanner },
   data: () => {
     return {
       isLoaded: false,
@@ -29,6 +31,7 @@ export default {
       <PageLoader />
     </div>
     <div v-if="isLoaded">
+      <Header />
       <HeroBanner />
       <Projects />
     </div>

@@ -1,7 +1,7 @@
 <template>
-  <section class="projects_container">
+  <section id="projects_section" class="projects_container">
     <div>
-      <h1>Mes projets</h1>
+      <h1 class="title">Mes projets</h1>
     </div>
     <ul>
       <li>
@@ -9,7 +9,7 @@
           src="src/assets/images/Lyokolympiques/lyokolympique-card.png"
           alt="Carte du projet sur les Lyokolympiques"
         />
-        <div>
+        <div class="text_card">
           Ce projet est un site web dédié aux Lyokolympiques, un événement
           tournoi captivant. Sur ce site, vous pourrez visionner les replays et
           les clips vidéos des moments forts de cet événement, ainsi que

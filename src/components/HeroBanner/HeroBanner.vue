@@ -1,7 +1,22 @@
 <template>
   <section id="top_page" class="immersive_visuals-container">
     <div class="img_container">
-      <img src="../../assets/images/hero-banner-gabriel-goldbronn.png" />
+      <div class="absolute_center_container">
+        <img
+          onmousedown="return false"
+          src="../../assets/images/hero-banner-gabriel-goldbronn.png"
+        />
+        <div class="info_hero_banner_container">
+          <h3>Liens importants</h3>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/gabriel-goldbronn">Linkedin</a>
+            </li>
+            <li><a href="https://github.com/Gabouil">Github</a></li>
+            <li><a href="">CV</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="text_container">
       <div class="text">
@@ -14,7 +29,8 @@
           <h2>Ui designer</h2>
         </div>
         <a href="#projects_section" class="btn btn_border-white btn_picto-right"
-          >Suite <DownArrow />
+          >Suite
+          <DownArrow />
         </a>
       </div>
     </div>
@@ -34,6 +50,6 @@ export default {
 };
 </script>
 
-<style lang="sass">
+<style scoped lang="sass">
 @import "./hero_banner.sass"
 </style>

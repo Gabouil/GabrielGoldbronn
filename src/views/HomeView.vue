@@ -3,11 +3,13 @@ import HeroBanner from "@/components/HeroBanner/HeroBanner.vue";
 import PageLoader from "@/components/PageLoader/PageLoader.vue";
 import Projects from "@/components/Projects/Projects.vue";
 import Header from "@/components/Header/Header.vue";
+import AboutMe from "@/components/AboutMe/AboutMe.vue";
+import ContactMe from "@/components/ContactMe/ContactMe.vue";
 
 export default {
   name: "HomeView",
   // eslint-disable-next-line vue/no-reserved-component-names
-  components: { Header, Projects, PageLoader, HeroBanner },
+  components: { ContactMe, AboutMe, Header, Projects, PageLoader, HeroBanner },
   data: () => {
     return {
       isLoaded: false,
@@ -26,17 +28,18 @@ export default {
 </script>
 
 <template>
-  <main>
-    <div v-if="!isLoaded">
-      <PageLoader />
-    </div>
-    <div v-if="isLoaded">
-      <Header />
+  <section v-if="!isLoaded">
+    <PageLoader />
+  </section>
+  <section v-if="isLoaded">
+    <Header />
+    <main>
       <HeroBanner />
       <Projects />
-    </div>
-  </main>
+      <AboutMe />
+      <ContactMe />
+    </main>
+  </section>
 </template>
 
-<style>
-</style>
+<style></style>

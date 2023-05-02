@@ -6,6 +6,7 @@
     <ul>
       <li>
         <img
+          onmousedown="return false"
           src="src/assets/images/Lyokolympiques/lyokolympique-card.png"
           alt="Carte du projet sur les Lyokolympiques"
         />
@@ -19,6 +20,7 @@
       </li>
       <li>
         <img
+          onmousedown="return false"
           src="src/assets/images/SalineRoyaleAcademy/SalineRoyaleAcademy-card.png"
           alt="Carte du projet sur Saline Royale Academy"
         />

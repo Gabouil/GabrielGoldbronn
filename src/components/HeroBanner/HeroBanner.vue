@@ -13,7 +13,7 @@
               <a href="https://www.linkedin.com/in/gabriel-goldbronn">Linkedin</a>
             </li>
             <li><a href="https://github.com/Gabouil">Github</a></li>
-            <li><a href="">CV</a></li>
+            <li><a href="../../../public/CV_Gabriel_Goldbronn.pdf"  download="CV_Gabriel_Goldbronn">CV</a></li>
           </ul>
         </div>
       </div>

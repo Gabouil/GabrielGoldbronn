@@ -38,6 +38,12 @@ a {
   text-decoration: none;
   color: black;
 }
+input[type="submit"] {
+  background: transparent;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
 ol, ul {
   list-style: none;
 }

@@ -1,24 +1,26 @@
 <template>
-  <section id="contact_section" class="about_section-container">
+  <section id="contact_section" class="contact_section-container">
     <form
       action="https://public.herotofu.com/v1/18f12580-e9db-11ed-b24a-93241516dd10"
       method="post"
       accept-charset="UTF-8"
     >
-      <div>
-        <label for="name">Nom</label>
-        <input name="Name" id="name" type="text" required />
+      <div class="infos-container">
+        <div class="label label-name">
+          <label for="name">Nom</label>
+          <input name="Name" id="name" type="text" required />
+        </div>
+        <div class="label label-email">
+          <label for="email">Mail</label>
+          <input name="Email" id="email" type="email" required />
+        </div>
       </div>
-      <div>
-        <label for="email">Mail</label>
-        <input name="Email" id="email" type="email" required />
-      </div>
-      <div>
+      <div class="label label-message">
         <label for="message">Message</label>
         <textarea name="Message" id="message" required />
       </div>
-      <div>
-        <input type="submit" value="Envoyer" />
+      <div class="label label-button">
+        <input class="btn btn_border-white" type="submit" value="Envoyer" />
         <div
           style="
             text-indent: -99999px;

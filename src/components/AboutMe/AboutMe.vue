@@ -1,5 +1,8 @@
 <template>
-  <section id="about_section" class="about_section-container">
+  <section id="about_section" class="section-container about_section-container">
+    <div class="title-section">
+      <h1 class="title">Plus sur moi</h1>
+    </div>
     <p>
       Je suis un développeur Front-End passionné, avec un bonne expérience en UI
       Design. J'ai suivit une formation à HETIC, où j'ai développé des

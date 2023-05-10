@@ -1,5 +1,8 @@
 <template>
-  <section id="contact_section" class="contact_section-container">
+  <section id="contact_section" class="section-container contact_section-container">
+    <div class="title-section">
+      <h1 class="title">Contact</h1>
+    </div>
     <form
       action="https://public.herotofu.com/v1/18f12580-e9db-11ed-b24a-93241516dd10"
       method="post"

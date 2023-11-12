@@ -1,4 +1,8 @@
 html
+  --primary: #3D5246
+  --white: #FFFFFF
+  --black: #000
+
   scroll-behavior: smooth
   font-family: Gravity, sans-serif
 
@@ -24,42 +28,42 @@ html
   margin: 20px 0
   border-radius: 0 20px 0 20px
   transition: 0.25s
-  box-shadow: inset 0 0 0 0 #FFFFFF
+  box-shadow: inset 0 0 0 0 var(--white)
 
 .btn_full-white
-  background: #FFFFFF
-  color: #3D5246
+  background: var(--white)
+  color: var(--primary)
 
 .btn_border-white
-  border: 3px #FFFFFF solid
-  color: #ffffff
+  border: 3px var(--white) solid
+  color: var(--white)
   path
-    stroke: #FFFFFF
-    fill: #FFFFFF
+    stroke: var(--white)
+    fill: var(--white)
   &:hover, &:active, &:focus
-    color: #3D5246
-    box-shadow: inset 11rem 0 0 0 #FFFFFF
+    color: var(--primary)
+    box-shadow: inset 11rem 0 0 0 var(--white)
     path
-     stroke: #3D5246
-     fill: #3D5246
+     stroke: var(--primary)
+     fill: var(--primary)
 
 .btn_full-green
-  background: #3D5246
-  color: #FFFFFF
+  background: var(--primary)
+  color: var(--white)
 
 
 .btn_border-green
-  border: 3px #3D5246
-  color: #3D5246
+  border: 3px var(--primary)
+  color: var(--primary)
   path
-    stroke: #FFFFFF
-    fill: #FFFFFF
+    stroke: var(--white)
+    fill: var(--white)
   &:hover, &:active
-    color: #FFFFFF
-    box-shadow: inset 15em 0 0 0 #3D5246
+    color: var(--white)
+    box-shadow: inset 15em 0 0 0 var(--primary)
     path
-      stroke: #FFFFFF
-      fill: #FFFFFF
+      stroke: var(--white)
+      fill: var(--white)
 
 .btn_picto-right
   svg

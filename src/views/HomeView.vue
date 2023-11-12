@@ -31,7 +31,7 @@ export default {
   <section v-if="!isLoaded">
     <PageLoader />
   </section>
-  <section v-if="isLoaded">
+  <section>
     <Header />
     <main>
       <HeroBanner />

@@ -7,21 +7,14 @@
       <li>
         <img
           onmousedown="return false"
-          src="../../assets/images/Lyokolympiques/lyokolympique-card.png"
-          alt="Carte du projet sur les Lyokolympiques"
+          src="../../assets/images/SalineRoyaleAcademy/SalineRoyaleAcademy-card.png"
+          alt="Carte du projet sur Saline Royale Academy"
         />
-        <div class="text_card">
-          Ce projet est un site web dédié aux Lyokolympiques, un événement
-          tournoi captivant. Sur ce site, vous pourrez visionner les replays et
-          les clips vidéos des moments forts de cet événement, ainsi que
-          découvrir les participants et consulter les statistiques clés
-          associées à cette compétition.
-        </div>
       </li>
       <li>
         <img
           onmousedown="return false"
-          src="../../assets/images/SalineRoyaleAcademy/SalineRoyaleAcademy-card.png"
+          src="../../assets/images/JoyMovies/JoyMovies-card.png"
           alt="Carte du projet sur Saline Royale Academy"
         />
       </li>

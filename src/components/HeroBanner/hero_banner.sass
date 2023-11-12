@@ -16,7 +16,7 @@
     height: 100%
 
     font-family: "Gravity", sans-serif
-    background:  #3D5246
+    background:  var(--primary)
     color: white
 
 
@@ -72,7 +72,7 @@
             left: 0
             width: 100%
             height: 2px
-            background: #3D5246
+            background: var(--primary)
             transition: .3s ease
         ul
           height: 100%
@@ -91,14 +91,14 @@
               left: 0
               width: 0
               height: 2px
-              background: #3D5246
+              background: var(--primary)
               transition: .3s ease
               z-index: -1
             &:hover:before
               right: 0
               width: 100%
             &:hover a
-              color: #3D5246
+              color: var(--primary)
               mix-blend-mode: difference
 
 
@@ -108,14 +108,14 @@
     grid-template-rows: repeat(2, 1fr)
     .img_container
       grid-area: 2 / 1 / 3 / 2
-      background: #3D5246
-      color: #FFFFFF
+      background: var(--primary)
+      color: var(--white)
       width: 100%
       .absolute_center_container
         position: relative
         width: 40%
         a
-          color: #FFFFFF
+          color: var(--white)
         img
           display: none
         .info_hero_banner_container

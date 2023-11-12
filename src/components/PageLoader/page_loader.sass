@@ -7,7 +7,8 @@
   align-items: center
   width: 100vw
   height: 100vh
-  z-index: 9999
+  background: var(--white)
+  z-index: 9999999999999
 
   .loader
     display: grid
@@ -21,10 +22,10 @@
     animation: scale2 1.5s forwards
 
     .loader_green
-      fill: #3D5246
+      fill: var(--primary)
       animation: colorChangeGreen 1.5s infinite
     .loader_black
-      fill: #000000
+      fill: var(--black)
       animation: colorChangeBlack 1.5s infinite
 
 @keyframes scale2
@@ -35,16 +36,16 @@
 
 @keyframes colorChangeBlack
   0%
-    fill: #000000
+    fill: var(--black)
   50%
-    fill: #3D5246
+    fill: var(--primary)
   100%
-    fill: #000000
+    fill: var(--black)
 
 @keyframes colorChangeGreen
   0%
-    fill: #3D5246
+    fill: var(--primary)
   50%
-    fill: #000000
+    fill: var(--black)
   100%
-    fill: #3D5246
+    fill: var(--primary)

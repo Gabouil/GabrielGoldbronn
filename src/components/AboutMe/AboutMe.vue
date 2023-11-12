@@ -4,18 +4,18 @@
       <h1 class="title">Plus sur moi</h1>
     </div>
     <p>
-      Je suis un développeur Front-End passionné, avec un bonne expérience en UI
-      Design. J'ai suivit une formation à HETIC, où j'ai développé des
-      compétences approfondies en JavaScript, avec une maîtrise avancée des
-      bibliothèques React JS et du framework Vue JS. <br /><br />
-      Pour ne pas perdre mon ancien parcours dans le domaine du graphisme, j'ai
-      transférer ces compétences vers la conception d'interfaces fonctionnelles,
-      en mettant un fort accent sur l'accessibilité des applications que je
-      développe. Cette approche a contribué à me forger une solide expérience
-      dans l'utilisation des outils de conception tels que Figma, Photoshop et
-      Illustrator, enrichissant ainsi mon profil professionnel. <br /><br />
-      Si vous êtes à la recherche d'un développeur Front-End polyvalent,
-      n'hésitez pas à me contacter.
+      Je suis Gabriel Goldbron, un développeur Front-End récemment diplômé de Hetic, spécialisé dans les technologies
+      JavaScript avec une expertise particulière dans les bibliothèques React et le framework Vue.js. Mon parcours
+      académique m'a doté d'une solide compréhension du développement Front-End, me permettant de créer des applications
+      web interactives et performantes axées sur une expérience utilisateur optimale.
+    </p>
+    <p>
+      Ma force réside dans la fusion du développement et du design. En continuant à affiner mes compétences en design
+      sur Figma, je suis capable de concevoir des interfaces élégantes et fonctionnelles qui répondent aux dernières
+      tendances en matière de design.
+    </p>
+    <p>
+      N'hésitez pas à explorer mon portfolio pour en savoir plus sur mon parcours et mes réalisations
     </p>
   </section>
 </template>
